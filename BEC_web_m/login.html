@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+	<meta http-equiv="cleartype" content="on" />
+	<meta name="format-detection" content="telphone=no" />
+	<meta name="screen-orientation" content="portrait">
+	<meta name="x5-orientation" content="portrait">
+	<meta name="format-detection" content="telephone=no" />
+	<title>BEC-Login</title>
+	<link rel="stylesheet"  href="css/reset-and-rem.min.css">
+	<link rel="stylesheet"  href="css/login.css">
+	<script src="js/jquery-1.8.2.min.js" ></script> 
+</head>
+<body>
+	<div class="header-box"></div>
+	<div class="click-box">
+		 <input type="text" class="user-name" id="user-name" placeholder="请输入你的沪江用户名">
+		 <a href="###" class="go-link"></a>
+		 <a href="###" class="register"><!-- 我要去沪江注册 --></a>
+		 <a href="http://wpa.b.qq.com/cgi/wpa.php?ln=2&uin=800103113" target="_blank" class="qq-zixun"><!-- QQ咨询课程老师 --></a>
+	</div> 
+	<div class="rule-mode"> 
+		<h2 class="title-box">
+			活动规则
+			<span class="span-line"> <em class="em-line"></em>
+			</span>
+		</h2> 
+		<ul class="list-ul-rule">
+			<li>
+				<!-- <div class="num">1.</div> -->
+				<div class="rule-txt-box">1. 请填写正确的沪江ID获取体验课程 </div>
+			</li>			
+			<li>
+				<!-- <div class="num">2.</div> -->
+				<div class="rule-txt-box">2. 每个ID仅限领取一份体验课程</div>
+			</li>			
+			<li>
+				<!-- <div class="num">3.</div> -->
+				<div class="rule-txt-box">3. 其余详情可咨询QQ:800103113 </div>
+			</li>
+		</ul>
+	</div> 
+<script>
+	
+ 	$(document).ready(function(){
+		var txt_input = $('#user-name').val();
+		$('.register').click(function() {
+			 window.location.href = "http://pass2.hujiang.com/m/login/?url=" + location.href;
+		});
+		$('#user-name').blur(function() {			 
+			if ( txt_input != '请输入你的沪江用户名' ) { 
+				 
+				$('.go-link').attr({
+					'href': 'hujiangclass3://hjclass.hujiang.com/classintro/15183876' ,
+					'target':'_blank'
+				});
+				$('.go-link').css({
+					'background': 'url(./img/img2/ele2-pic_04.jpg) center no-repeat',
+					'background-size':'100%  100%',
+					'-webkit-background-size':'100%  100%'
+
+				});
+
+			} else{
+				$('.go-link').attr({
+					'href': 'javascript:' ,
+					'target':'_blank'
+				});
+				$('.go-link').css({
+					'background': 'url(./img/img2/ele2-pic_07.jpg) center no-repeat',
+					'background-size':'100%  100%',
+					'-webkit-background-size':'100%  100%'
+
+				});
+			}
+		}); 
+	}); 
+</script>
+</body>
+</html>

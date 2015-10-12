@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+	<meta http-equiv="cleartype" content="on" />
+	<meta name="format-detection" content="telphone=no" />
+	<meta name="screen-orientation" content="portrait">
+	<meta name="x5-orientation" content="portrait">
+	<meta name="format-detection" content="telephone=no" />
+	<title>BEC</title>
+	<link rel="stylesheet"  href="css/reset-and-rem.min.css">
+	<link rel="stylesheet"  href="css/style.css">
+	<script src="js/jquery-1.8.2.min.js" ></script>
+
+</head>
+<body>
+	<div class="header-box"></div>
+	<div class="content-box">
+		<ul class="ul-icon-list">
+			<li>
+				<div class="icon"></div>
+				<div class="txt-box-div">
+					<h2 class="title">Business Meetings</h2>
+					<p class="p-txt">英语会议</p>
+				</div>
+			</li>
+			<li>
+				<div class="icon icon-2"></div>
+				<div class="txt-box-div">
+					<h2 class="title">Work Report</h2>
+					<p class="p-txt">工作汇报</p>
+				</div>
+			</li>
+			<li class="no-mar-r">
+				<div class="icon icon-3"></div>
+				<div class="txt-box-div">
+					<h2 class="title">Email Exchanges</h2>
+					<p class="p-txt">邮件往来</p>
+				</div>
+			</li>
+			<li>
+				<div class="icon icon-4"></div>
+				<div class="txt-box-div">
+					<h2 class="title">Business Travels</h2>
+					<p class="p-txt">国外出差</p>
+				</div>
+			</li>
+			<li>
+				<div class="icon icon-5"></div>
+				<div class="txt-box-div">
+					<h2 class="title">Telephone Communication</h2>
+					<p class="p-txt">电话沟通</p>
+				</div>
+			</li>
+			<li class="no-mar-r">
+				<div class="icon icon-6"></div>
+				<div class="txt-box-div">
+					<h2 class="title">Business Negotiation</h2>
+					<p class="p-txt">商业谈判</p>
+				</div>
+			</li>
+		</ul>
+	</div>
+	<div class="vedio-box">
+		<h2 class="title-box">
+			沪江BEC，得到的不只是证书
+			<span class="span-line"> <em class="em-line"></em>
+			</span>
+		</h2> 
+		<video src="http://class.hujiang.com/151811/demo" controls="controls" class="vedio-ele" id="vedio-ele">您的浏览器版本太低，不支持视频标签</video>
+		<a href="javascript:" class="video-a-pic"><span class="arr-paly"></span></a>
+		<h3 class="title-wifi">视频体验课建议在wifi环境下观看！</h3>
+	</div>
+	<div class="last-mode">
+		<h2 class="title-box">
+			沪江BEC课程拥有
+			<span class="span-line"> <em class="em-line"></em>
+			</span>
+		</h2> 
+		<ul class="last-m-list-ul">
+			<li>
+				<div class="last-m-icon"></div>
+				<h3 class="last-m-title">100,000以上上课学员</h3>
+			</li>			
+			<li class="no-mar-r">
+				<div class="last-m-icon icon-2"></div>
+				<h3 class="last-m-title">全勤历史通过率92.5%</h3>
+			</li>			
+			<li>
+				<div class="last-m-icon icon-3"></div>
+				<h3 class="last-m-title">24H内答疑服务</h3>
+			</li>			
+			<li class="no-mar-r">
+				<div class="last-m-icon icon-4"></div>
+				<h3 class="last-m-title">40多个商务场景还原</h3>
+			</li>			 
+		</ul>
+		<a href="login.html" class="btn-check"></a>
+	</div>
+<script type="text/javascript" src="http://common.hjfile.cn/js/hj-weixin-2.0.js"></script>
+<script src="/classzt/MKTTopic_582/js/share_m.js"></script>
+<script>
+ window.weixinParam = {
+              imgUrl: encodeURIComponent("http://m.hjclass.com/classzt/MKTTopic_582/images/wy200_200.jpg"),
+              shareTitle: encodeURIComponent("【金秋好课】沪江网校请你学外语，只要9元，学完全返！"),
+              descContent: encodeURIComponent("十月巨献：沪江网校精选12门好课，请你学外语，只要9元，学完全返！"),
+          }
+
+	$(document).ready(function() {
+		 $(".arr-paly").click(function() {
+		 	$(this).parent().hide();
+		 	 $("#vedio-ele").trigger("click");
+		 });
+	});
+</script>
+</body>
+</html>

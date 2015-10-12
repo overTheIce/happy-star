@@ -1,0 +1,105 @@
+@charset "utf-8";
+.header-box {
+  width: 100%;
+  height: 14.8rem;
+  background: url(../img/img2/ele2-pic_01.jpg) center no-repeat;
+  background-size: 100% 100%;
+  -webkit-background-size: 100% 100%;
+  margin-bottom: 2rem;
+}
+.click-box {
+  width: 25rem;
+  height: 23rem;
+  margin: 0 auto;
+}
+.click-box .user-name {
+  width: 20.1rem;
+  height: 4.3rem;
+  margin: 0 auto;
+  font-size: 1.5rem;
+  color: #848484;
+  padding: 0 0.75rem 0;
+  display: block;
+}
+.click-box .go-link {
+  width: 21.6rem;
+  height: 4.3rem;
+  background: url(../img/img2/ele2-pic_07.jpg) center no-repeat;
+  background-size: 100% 100%;
+  -webkit-background-size: 100% 100%;
+  display: block;
+  margin: 1.5rem auto 0;
+}
+.click-box .register {
+  width: 21.6rem;
+  height: 4.3rem;
+  background: url(../img/img2/ele2-pic_09.jpg) center no-repeat;
+  background-size: 100% 100%;
+  -webkit-background-size: 100% 100%;
+  display: block;
+  margin: 1.5rem auto 0;
+}
+.click-box .qq-zixun {
+  width: 21.6rem;
+  height: 4.3rem;
+  background: url(../img/img2/ele2-pic_11.jpg) center no-repeat;
+  background-size: 100% 100%;
+  -webkit-background-size: 100% 100%;
+  display: block;
+  margin: 1.5rem auto 0;
+}
+.rule-mode {
+  width: 100%;
+  height: auto;
+  background: url(../img/img2/rule-bg.png) center no-repeat;
+  background-size: 100% 100%;
+  -webkit-background-size: 100% 100%;
+  padding: 1.25rem 0 1.5rem 0;
+}
+.rule-mode .title-box {
+  width: 6.25rem;
+  height: 1.5rem;
+  color: #fff;
+  font-size: 1.2rem;
+  margin: 1.5rem auto 0;
+  text-align: center;
+}
+.rule-mode .title-box .span-line {
+  width: 5rem;
+  height: 0.15rem;
+  background-color: #e3e3e3;
+  display: block;
+  margin: 0 auto;
+}
+.rule-mode .title-box .span-line .em-line {
+  width: 2.5rem;
+  height: 0.15rem;
+  background-color: #c63d3f;
+  float: right;
+}
+.rule-mode .list-ul-rule {
+  width: 27.5rem;
+  height: auto;
+  margin: 2rem auto 0;
+}
+.rule-mode .list-ul-rule li {
+  display: block;
+  color: #b2b2b4;
+  font-size: 1rem;
+  line-height: 1.3rem;
+  margin-bottom: 0.75rem;
+  width: 27.5rem;
+  height: auto;
+  overflow: hidden;
+}
+.rule-mode .list-ul-rule li .num {
+  width: 1.5rem;
+  height: 1.5rem;
+  float: left;
+}
+.rule-mode .list-ul-rule li .rule-txt-box {
+  width: 26rem;
+  height: auto;
+  float: right;
+  text-indent: 1.5rem;
+}

@@ -1,0 +1,206 @@
+.no-mar-r {
+  margin-right: 0!important;
+}
+.header-box {
+  width: 100%;
+  height: 20.1rem;
+  background: url(../img/ele-bec.jpg) center no-repeat;
+  background-size: 100% 100%;
+  -webkit-background-size: 100% 100%;
+  margin: 0 auto;
+}
+.content-box {
+  width: 32rem;
+  height: 19.5rem;
+  background-color: #fff;
+  margin: 0 auto;
+  overflow: hidden;
+}
+.content-box .ul-icon-list {
+  width: 100%;
+  height: auto;
+  background-color: pink;
+  margin: 1.8rem auto 0;
+  display: block;
+}
+.content-box .ul-icon-list li {
+  float: left;
+  margin: 0 0 2rem 0.5rem;
+  width: 9.5rem;
+  height: auto;
+}
+.content-box .ul-icon-list li .icon {
+  width: 4.3rem;
+  height: 4.25rem;
+  background: url(../img/ele-bec_04.jpg) center no-repeat;
+  background-size: 100% 100%;
+  -webkit-background-size: 100% 100%;
+  display: block;
+  margin: 0 auto;
+}
+.content-box .ul-icon-list li .txt-box-div {
+  width: 9.5rem;
+  height: 1.5rem;
+  color: #000;
+  line-height: 1.5rem;
+  text-align: center;
+}
+.content-box .ul-icon-list li .txt-box-div .title {
+  white-space: nowrap;
+  font-size: 0.7rem;
+}
+.content-box .ul-icon-list li .txt-box-div .p-txt {
+  color: #8f8d93;
+  font-size: 0.9rem;
+}
+.vedio-box {
+  width: 100%;
+  height: 25.95rem;
+  background: url(../img/ele-bec_19.jpg) center no-repeat;
+  background-size: 100% 100%;
+  -webkit-background-size: 100% 100%;
+  overflow: hidden;
+  margin: 0 auto;
+  position: relative;
+}
+.vedio-box .title-box {
+  width: 17.5rem;
+  height: 1.5rem;
+  color: #fff;
+  font-size: 1.2rem;
+  margin: 1.5rem auto 0;
+}
+.vedio-box .title-box .span-line {
+  width: 16rem;
+  height: 0.15rem;
+  background-color: #7a787f;
+  display: block;
+}
+.vedio-box .title-box .span-line .em-line {
+  width: 2.5rem;
+  height: 0.15rem;
+  background-color: #e0c695;
+  float: left;
+  margin-left: 6rem;
+}
+.vedio-box .vedio-ele {
+  width: 25rem;
+  height: 15.5rem;
+  background-size: 100% 100%;
+  -webkit-background-size: 100% 100%;
+  display: block;
+  margin: 1.8rem auto 0;
+}
+.vedio-box .title-wifi {
+  width: 20rem;
+  height: 1.5rem;
+  color: #67636d;
+  font-size: 0.9rem;
+  line-height: 1.5rem;
+  margin: 1rem auto 0;
+  text-align: center;
+  display: block;
+}
+.vedio-box .video-a-pic {
+  width: 25rem;
+  height: 15.5rem;
+  background: url(../img/audio-bg_03.jpg) center no-repeat;
+  background-size: 100% 100%;
+  -webkit-background-size: 100% 100%;
+  display: block;
+  margin: 0 auto;
+  position: absolute;
+  top: 50%;
+  margin-top: -7.8rem;
+  left: 50%;
+  margin-left: -12.5rem;
+}
+.vedio-box .video-a-pic .arr-paly {
+  width: 4.8rem;
+  height: 4.8rem;
+  background: url(../img/arr-black_03.png) center no-repeat;
+  background-size: 100% 100%;
+  -webkit-background-size: 100% 100%;
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: -2.4rem 0 0 -2.4rem;
+}
+.last-mode {
+  width: 100%;
+  height: 40rem;
+  background-color: #fff;
+}
+.last-mode .title-box {
+  width: 11.25rem;
+  height: 1.5rem;
+  color: #3f3c44;
+  font-size: 1.2rem;
+  margin: 1.5rem auto 0;
+}
+.last-mode .title-box .span-line {
+  width: 9.75rem;
+  height: 0.15rem;
+  background-color: #e3e3e3;
+  display: block;
+}
+.last-mode .title-box .span-line .em-line {
+  width: 2.5rem;
+  height: 0.15rem;
+  background-color: #c63d3f;
+  float: left;
+  margin-left: 3.8rem;
+}
+.last-mode .last-m-list-ul {
+  width: 30rem;
+  height: 27.5rem;
+  margin: 2.5rem auto;
+  display: block;
+}
+.last-mode .last-m-list-ul li {
+  float: left;
+  margin-right: 2.5rem;
+  width: 12.75rem;
+  height: 13.75rem;
+}
+.last-mode .last-m-list-ul li .last-m-icon {
+  width: 10.15rem;
+  height: 10.15rem;
+  background: url(../img/ele-bec_22.jpg) center no-repeat;
+  background-size: 100% 100%;
+  -webkit-background-size: 100% 100%;
+  margin: 0 auto;
+}
+.last-mode .last-m-list-ul li .icon-2 {
+  background: url(../img/ele-bec_24.jpg) 0 0 no-repeat;
+  background-size: 100% 100%;
+  -webkit-background-size: 100% 100%;
+}
+.last-mode .last-m-list-ul li .icon-3 {
+  background: url(../img/ele-bec_28.jpg) 0 0 no-repeat;
+  background-size: 100% 100%;
+  -webkit-background-size: 100% 100%;
+}
+.last-mode .last-m-list-ul li .icon-4 {
+  background: url(../img/ele-bec_29.jpg) 0 0 no-repeat;
+  background-size: 100% 100%;
+  -webkit-background-size: 100% 100%;
+}
+.last-mode .last-m-list-ul li .last-m-title {
+  font-size: 1.2rem;
+  color: #333;
+  line-height: 1.6rem;
+  height: 1.6rem;
+  margin: 0 auto;
+  text-align: center;
+}
+.last-mode .btn-check {
+  width: 19.55rem;
+  height: 4.15rem;
+  background: url(../img/ele-bec_33.jpg) center no-repeat;
+  background-size: 100% 100%;
+  -webkit-background-size: 100% 100%;
+  margin: 0 auto;
+  display: block;
+}
